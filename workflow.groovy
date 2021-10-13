@@ -9,6 +9,7 @@ node{
       sh """
         ls
         """
+    input 'Do you want to continue?'
   }
   stage("Test"){
       sh """
