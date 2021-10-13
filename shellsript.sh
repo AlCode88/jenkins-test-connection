@@ -1,2 +1,5 @@
 #!/bin/bash
-echo "hello from the script"
+for i in 1 2 3 4 5
+do 
+echo "Welcome $i number of times"
+done
